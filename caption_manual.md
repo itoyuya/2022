@@ -76,7 +76,7 @@ M+FONTS https://mplus-fonts.osdn.jp
 横位置をｘ，縦位置をyとする
 左上頂点を（0px,0px）、右下頂点（1920px,1080px）とする
 
-<img src=layout.jpg width=100%>
+<img src=bin/layout.jpg width=100%>
 
 ---
 
