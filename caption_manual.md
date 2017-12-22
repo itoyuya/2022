@@ -83,8 +83,6 @@ M+FONTS https://mplus-fonts.osdn.jp
 <img src=bin/timeline01.jpg width=100%>
 <img src=bin/timeline02.jpg width=100%>
 
----
-
 
 
 
