@@ -7,7 +7,6 @@ Drillbros(Takashi HONGO, Yuya ITO)
 * 映像フォーマット：1920x1080 60fps
 * 再生時間：10秒以上
 
----
 
 ## 表記方法
 
@@ -51,7 +50,6 @@ M+FONTS https://mplus-fonts.osdn.jp
 <img src=bin/styleEx_bright.jpg width=100%>
 <img src=bin/styleEx_dark.jpg width=100%>
 
----
 
 ## キャプションを表示させるタイミング
 
