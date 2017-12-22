@@ -5,7 +5,7 @@ Drillbros(Takashi HONGO, Yuya ITO)
 
 ## キャプションを付加する映像
 * 映像フォーマット：1920x1080 60fps
-* 再生時間：13秒以上
+* 再生時間：10秒以上
 
 ---
 
@@ -17,13 +17,12 @@ Drillbros(Takashi HONGO, Yuya ITO)
 |:---|:---|:---|:---|:---|
 |日付|必須|英|YYYY.MM.DD 形式。一桁の月及び日の時は頭に0を追加すること|2022.08.31|
 |時間|任意|英|HH:MM 形式。  現地時間で 24 時間表記とする。1桁の場合は、頭に「0」を追加すること。|13:08|
-|場所|任意|英|「都市名　 国名」の順とする。 都市名、国名どちらか一方だけの表記でもよい。 国名は「[ISO 3166-1 alpha-3](https://ja.wikipedia.org/wiki/ISO_3166-1)」に準ずること。|Okinawa, JPN|
+|場所|任意|英|「都市名 国名」の順とする。 都市名、国名どちらか一方だけの表記でもよい。 国名は「[ISO 3166-1 alpha-3](https://ja.wikipedia.org/wiki/ISO_3166-1)」に準ずること。|Okinawa, JPN|
 |キャプション|任意|日英|原則1行。指定されたエリア内で収まらない場合は、2行までの表記できる|本郷、catch up.|
 
 時間と場所、どちらか一方だけを表記してもよい。  
 時間と場所の両方を表記する場合、間にはカンマと半角スペースをいれて区別できるようにすること。
 
----
 
 ## フォント情報
 
@@ -34,17 +33,29 @@ Drillbros(Takashi HONGO, Yuya ITO)
 |場所|Futura Medium|51px|--|
 |キャプション|M+1p bold|48px|60px|
 
-
 Futura: フーツラ(Futura)は、1923年にドイツのバウハウスにおいて非常勤講師として勤めたパウル・レナーによって発表されたラテン文字のサンセリフ体書体。"futura"とはラテン語で「未来」の意。（[Wikipedia](https://goo.gl/9T5cmh)より抜粋）
 
 M+1p／M+FONTS: M+FONTS(エムプラスフォンツ)は、森下浩司によってデザインされているゴシック体の日本語フォントである。フリーソフトウェアであり、さらに利用・改変・再配布についてほぼ制限の無いライセンスが適用されているため、このフォントをベースにカスタマイズを施した派生フォントが多数配布されている。([Wikipedia](https://ja.wikipedia.org/wiki/M%2B_FONTS)より抜粋) 　なお、M+1pはプロポーショナルフォント。  
 M+FONTS https://mplus-fonts.osdn.jp
 
+
+## レイアウト
+
+横位置をｘ，縦位置をyとする
+左上頂点を（0px,0px）、右下頂点（1920px,1080px）とする。
+キャプションはすべて中央揃えで配置すること。
+
+
+<img src=bin/layout.jpg width=100%>
+<img src=bin/style.jpg width=100%>
+<img src=bin/styleEx_bright.jpg width=100%>
+<img src=bin/styleEx_dark.jpg width=100%>
+
 ---
 
 ## キャプションを表示させるタイミング
 
-再生時間が20秒の映像を、例とする。
+以下は再生時間が20秒の映像を例とする。
 
 日付のみの場合
 
@@ -69,15 +80,12 @@ M+FONTS https://mplus-fonts.osdn.jp
 |00:00:18:30 (映像終了 1.5 秒前)|必須|--|日付のみ。 背景は黒。|
 |00:00:20:00|必須|--|再生終了／日付のみ。 背景は黒。|
 
----
-
-## レイアウト
-
-横位置をｘ，縦位置をyとする
-左上頂点を（0px,0px）、右下頂点（1920px,1080px）とする
-
-<img src=bin/layout.jpg width=100%>
+<img src=bin/timeline01.jpg width=100%>
+<img src=bin/timeline02.jpg width=100%>
 
 ---
 
-<img src=http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/v1/257892/320x320_cdxu9c.png width=320>
+
+
+
+以上
